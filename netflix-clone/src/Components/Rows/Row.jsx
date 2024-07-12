@@ -47,30 +47,31 @@ function Row({ title, fetchurl, isLargeRow }) {
           />
         ))}
       </div>
-      <div style={{ padding: "40px" }}>
-        {trailerUrl && (
-          <ReactPlayer
-            url={`https://www.youtube.com/watch?v=${trailerUrl}`}
-            width="100%"
-            height="390px"
-            playing
-            controls
-            config={{
-              youtube: {
-                playerVars: {
-                  autoplay: 1,
+      <div>
+        <div style={{ padding: "0px" }}>
+          {trailerUrl && (
+            <ReactPlayer
+              url={`https://www.youtube.com/watch?v=${trailerUrl}`}
+              width="100%"
+              height="390px"
+              playing
+              controls
+              config={{
+                youtube: {
+                  playerVars: {
+                    autoplay: 1,
+                  },
                 },
-              },
-            }}
-          />
-        )}
+              }}
+            />
+          )}
+        </div>
       </div>
     </div>
   );
 }
 
 export default Row;
-   
 
 //note the below react js code is fine exept youtub video play error message
 // import React, { useEffect, useState } from "react";
