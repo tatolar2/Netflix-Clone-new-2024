@@ -12,7 +12,7 @@
   /* color: white; */
   /* height: 14vh; */
   /* background-color: rgb(#111); */
-  background-color: transparent;
+  /* background-color: transparent; */
   transition: all 0.5s;
   transition-timing-function: ease-in;
   z-index: 1;
@@ -33,7 +33,7 @@
 
 /* this css  purpose is to while scrolling black background will appear*/
 .nav_black {
-  background-color: rgb(#111);
+  background-color: rgb(#741212);
 }
 
 .header_left {
