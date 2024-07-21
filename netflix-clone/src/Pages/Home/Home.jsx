@@ -3,7 +3,7 @@ import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import Banner from "../../Components/Banner/Banner";
 import Row from "../../Components/Rows/Row";
-import requests from "../../Components/Util/requests";
+import requests from "../../Components/Utility/requests";
 
 function Home() {
   return (

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "../Util/axios";
+import axios from "../Utility/axios";
 import "./Row.css";
 import ReactPlayer from "react-player"; //// import YouTube from "react-youtube"; due to CORS error message reactplayer can be used as substitute to play youtube videos
 import movieTrailer from "movie-trailer";
